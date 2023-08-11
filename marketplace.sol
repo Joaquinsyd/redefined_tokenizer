@@ -2,9 +2,9 @@
 pragma solidity >=0.7.0 <0.9.0;
 pragma experimental ABIEncoderV2;
 
-import "./SafeMath.sol";
-import "./ERC20.sol";
-import "./structures.sol";
+import "./SafeMath.sol"; //Esta librería provee funciones aritméticas preparadas para manejar errores que pueden aparecer
+import "./ERC20.sol"; //El contrato que creamos para usar en nuestro marketplace
+import "./structures.sol"; //
 
 import "./rental.sol";
 import "./invesment.sol";
