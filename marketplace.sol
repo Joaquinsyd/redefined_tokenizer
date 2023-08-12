@@ -4,10 +4,10 @@ pragma experimental ABIEncoderV2;
 
 import "./SafeMath.sol"; //Esta librería provee funciones aritméticas preparadas para manejar errores que pueden aparecer
 import "./ERC20.sol"; //El contrato que creamos para usar en nuestro marketplace
-import "./structures.sol"; //
+import "./structures.sol"; //Las "struct" u objetos que usa el contrato
 
-import "./rental.sol";
-import "./invesment.sol";
+import "./rental.sol"; //Contrato para rentar autos
+import "./invesment.sol"; //Contrato para realizar inversiones nuevas y gestionar las existentes
 
 import "@openzeppelin/contracts/utils/Strings.sol";
 
